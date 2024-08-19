@@ -1,0 +1,6 @@
+CustomerID,Name,Email,Feedback,Rating,Date
+1,John Doe,john.doe@example.com,Great service!,5,8/1/2024
+2,Jane Smith,jane.smith@example.com,Average experience.,3,8/2/2024
+4,Unknown,missing.email@example.com,No name provided.,4,8/3/2024
+5,Emily Jones,unknown@example.com,Loved it!,5,8/4/2024
+6,Michael Brown,michael.brown@example.com,No feedback provided.,4.25,8/5/2024
