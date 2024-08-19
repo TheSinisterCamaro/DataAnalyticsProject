@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Connect to MySQL database
-engine = create_engine('mysql+mysqlconnector://root:Adidas18*@localhost/CustomerFeedback')
+engine = create_engine('mysql+mysqlconnector://username:password@localhost/CustomerFeedback') # Replace username and password with your DB username and password
 
 # Load data into a DataFrame
 df = pd.read_sql('SELECT * FROM Feedback', engine)
